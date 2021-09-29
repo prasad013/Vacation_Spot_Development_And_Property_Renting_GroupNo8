@@ -1,0 +1,122 @@
+.singlePost {
+  /* flex: 9; */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.singlePostWrapper {
+  /* padding: 30px; */
+  /* padding-right: 50px; */
+  margin-left: 75px;
+  margin-right: 75px;
+  /* margin: auto; */
+  /* padding: 0px; */
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  /* object-fit: cover; */
+}
+
+.singlePostTitle {
+  text-align: center;
+  /* margin: 10px; */
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor {
+  margin-left: 5px;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+.addCity {
+  display: flex;
+  width: 100%;
+  color: #be9656;
+}
+.chargePhone {
+  display: flex;
+  width: 100%;
+}
+.add {
+  margin-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.postDate {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+
+  /* display: flex; */
+  justify-content: space-between;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.postCharges {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: left;
+  /* align-content: flex-start; */
+  /* justify-content: left; */
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.postDesc {
+  display: flex;
+  justify-content: left;
+  color: #be9656;
+}
+button {
+  width: 80px;
+  height: 25px;
+  margin-left: 30%;
+  margin-top: 15px;
+}

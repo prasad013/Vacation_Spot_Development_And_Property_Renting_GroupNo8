@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  /* background-image: url("../../image/sunset.jpg"); */
+  background-color: rgb(240, 227, 240);
+  margin: 20px;
+  border-radius: 10px;
+}
+/* .homepage {
+  background-image: url("../../image/sunset.jpg");
+} */

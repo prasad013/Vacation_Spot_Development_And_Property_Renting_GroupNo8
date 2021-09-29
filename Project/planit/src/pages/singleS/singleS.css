@@ -1,0 +1,14 @@
+.prop{
+    /* align-items: center; */
+    /* justify-content: center;
+    display: flex;
+    margin-left: 500px; */
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+    color: rgba(98, 151, 29, 0.945);
+    font-weight: 800;
+}

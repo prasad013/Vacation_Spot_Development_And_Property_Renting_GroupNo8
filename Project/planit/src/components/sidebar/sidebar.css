@@ -1,0 +1,113 @@
+.sidebar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  width: 80%;
+  /* flex: 3; */
+  height: max-content;
+  /* margin: 20px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: #fdfbfb; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px rgb(253, 210, 145);
+  border-style: groove;
+  /* background-color: navajowhite; */
+}
+
+/* .sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+form {
+  width: 500px;
+}
+.rev {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(243, 233, 229);
+}
+label {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+textarea {
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  /* background-color: rgb(243, 164, 136); */
+}
+.sidebarTitle {
+  margin: 5px;
+  padding: 5px;
+  width: 80%;
+  border-top: solid 2px #a7a4a4;
+  border-bottom: solid 2px #a7a4a4;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  /* font-size: 12px; */
+  line-height: 19px;
+  color: coral;
+  font-weight: 600;
+}
+.sidebarTitleSm {
+  font-size: 12px;
+}
+.sidebarTitleLg {
+  font-size: 15px;
+}
+.sidebarTitle:hover {
+  color: peru;
+}
+.sidebarItem > img {
+  margin-top: 15px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.sidebarItem > p {
+  margin-top: 10px;
+  /* padding: 30px; */
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.sidebarList {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.sidebarItem > p::first-letter {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 550;
+}

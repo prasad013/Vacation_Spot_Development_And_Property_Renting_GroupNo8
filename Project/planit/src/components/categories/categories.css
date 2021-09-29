@@ -1,0 +1,35 @@
+.categories {
+  flex: 100%;
+  display: Flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.category {
+  width: 180px;
+  margin: 0px 20px 25px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.categoryImg {
+  width: 180px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.categoryTitle {
+  /* font-family: "Josefin Sans", Arial, Helvetica, sans-serif; */
+  font-family: "IBM Plex Serif", serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.categoryInfo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoryInfo > p {
+  margin-top: 10px;
+}

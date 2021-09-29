@@ -1,0 +1,161 @@
+.addprop {
+    padding-top: 20px;
+  }
+  
+  .addpropImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: fill;
+  }
+  
+  .addpropForm {
+    position: relative;
+  }
+  
+  .addpropFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .addpropFormGroup1 {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .addpropIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .addpropInput {
+    font-size: 30px;
+    border: 2px;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .addpropInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .addpropInput:focus {
+    outline-style: none;
+  }
+  
+  .addpropText {
+    width: 70vw;
+    height: 15vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  .addpropText1 {
+    margin-right: 2rem;
+    border-radius: 7px;
+    width: 30vw;
+    height: 0.3vh;
+    font-family: inherit;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  
+  .addpropSubmit {
+    margin-right: 180px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .addpropSubmit:hover{
+    background-color: rgb(9, 109, 109);
+  }
+  .addpropDelete {
+    margin-right: 80px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: rgb(226, 128, 169);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .addpropDelete:hover{
+    background-color: rgb(173, 98, 130);
+  }
+
+  .dropDownClass {
+    position: absolute;
+  }
+
+  .dropdown {
+    position: relative;
+    width: 30vw;
+    border: 2px solid black;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    width: 30vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropbtn {
+    color: rgb(7, 7, 7);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  dropdown::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .dropdown:focus {
+    outline-style: none;
+  }
